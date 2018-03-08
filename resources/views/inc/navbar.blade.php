@@ -7,7 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarsExample05">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item {{Request::is('/') ? 'active' : ""}}"><a class="nav-link" href="/blogHoussain/public">Home</a></li>
-            <li class="nav-item {{Request::is('about') ? 'active' : ""}}"><a class="nav-link" href="about">About</a></li>
+            <li class="nav-item {{Request::is('article') ? 'active' : ""}}"><a class="nav-link" href="article">Articles</a></li>
+            <li class="nav-item {{Request::is('gallerie') ? 'active' : ""}}"><a class="nav-link" href="gallerie">Gallerie</a></li>
             <li class="nav-item {{Request::is('contact') ? 'active' : ""}}"><a class="nav-link" href="contact">Contact</a></li>
         </ul>
     </div>
